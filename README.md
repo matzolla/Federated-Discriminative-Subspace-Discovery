@@ -18,6 +18,13 @@ We extracted embeddings from `Mvit` and `ResNet-3D-18` for both the `UCF101` and
 ```python
 python src\run_extract_emb.py
 ```
+# Running the evidence plot (Figure 1)
+Consider changing the directory of the embeddings files to reflect your own directories, then run the command below in your terminal:
+```python
+python src\run_evidence.py
+```
+A plot will be automatically generated in your current directory (see below):
+![evidence](images/evidence_plot.png)
 ```python
 # List your Python scripts in the order you want to execute
 python src\main.py --method angular_pca
