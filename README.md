@@ -25,7 +25,7 @@ python src\run_evidence.py
 ```
 A plot will be automatically generated in your current directory (see below):
 
-|  For both MViT and ResNet-3D-18, increasing the subspace dimensionality leads to an increase in accuracy, which then begins to plateau at approximately 256 dimensions.         |
+|  For both MViT and ResNet-3D-18, increasing the subspace dimensionality leads to an increase in accuracy, which then begins to plateau at approximately $256$ dimensions.         |
 |---------------------------------------------------------------|  
 | ![evidence](images/evidence_plot.png)                         |
 
