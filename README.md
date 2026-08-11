@@ -3,6 +3,8 @@ We propose  `Federated discriminative subspace discovery`, a framework that coll
 
 ![method](images/Methodology.png)
 
+# Running the experiments
+
 ```python
 # List your Python scripts in the order you want to execute
 python src/main.py --method angular_pca
