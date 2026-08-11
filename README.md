@@ -6,7 +6,7 @@ We propose  `Federated discriminative subspace discovery`, a framework that coll
 # Running the experiments
 Make sure to create a python virtual environment 
 ```python
-# in Mac
+# Working with Mac
 python -m venv environment_name
 # to activate it
 source bin/activate/environment_name
