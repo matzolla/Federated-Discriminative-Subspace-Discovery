@@ -14,7 +14,7 @@ source bin/activate/environment_name
 pip install -r requirements.txt
 ```
 # Preparing the data
-We extracted embeddings from `Mvit` and `ResNet-3D-18` for both the `UCF101` and `HMDB51` dataset. You can find the sample datasets in the Data folder. You can also reproduce the entire dataset for this project by running the file below:
+We extracted embeddings from `Mvit` and `ResNet-3D-18` for both the `UCF101` and `HMDB51` and the `Toyota-smarthome` dataset. You can find the sample datasets in the Data folder (HMDB51, PS: GitHub only allows a max of 25MB upload). You can also reproduce the entire dataset for this project by running the file below:
 ```python
 python src\run_extract_emb.py
 ```
