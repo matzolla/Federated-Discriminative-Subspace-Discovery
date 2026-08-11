@@ -10,6 +10,8 @@ Make sure to create a python virtual environment
 python -m venv environment_name
 # to activate it
 source bin/activate/environment_name
+# In your terminal type the command  below to install the required packages
+pip install -r requirements.txt
 ```
 ```python
 # List your Python scripts in the order you want to execute
