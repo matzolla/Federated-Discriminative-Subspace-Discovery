@@ -19,7 +19,23 @@ We extracted embeddings from `Mvit` and `ResNet-3D-18` for both the `UCF101` and
 python src\run_extract_emb.py
 ```
 # Running the evidence plot (Figure 1)
-Consider changing the directory of the embeddings files to reflect your own directories, then run the command below in your terminal:
+Consider changing the directory of the embeddings files to reflect your own directories change this:
+```python
+    paths=[
+        [
+        ("data/Mvit_embds/TOYOTA/toyota_train/*.joblib","data/Mvit_embds/TOYOTA/toyota_test/*.joblib","TOYOTA"),
+        ("data/Mvit_embds/UCF101/ucf101_train/*.joblib","data/Mvit_embds/UCF101/ucf101_test/*.joblib","UCF101"),
+        ("data/Mvit_embds/HMDB51/hmdb51_train/*.joblib","data/Mvit_embds/HMDB51/hmdb51_test/*.joblib","HMDB51")
+        ],
+        [
+            ("data/Resnet18_embds/TOYOTA/train_embeddings/*.joblib","data/Resnet18_embds/TOYOTA/test_embeddings/*.joblib","TOYOTA"),
+            ("data/Resnet18_embds/UCF101/train_embeddings/*.joblib","data/Resnet18_embds/UCF101/test_embeddings/*.joblib","UCF101"),
+            ("data/Resnet18_embds/HMDB51/train_embeddings/*.joblib","data/Resnet18_embds/HMDB51/test_embeddings/*.joblib","HMDB51")
+
+        ]
+        ]
+```
+Then run the command below in your terminal:
 ```python
 python src\run_evidence.py
 ```
