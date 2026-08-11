@@ -5,9 +5,9 @@ We propose  `Federated discriminative subspace discovery`, a framework that coll
 
 ```python
 # List your Python scripts in the order you want to execute
-python main.py --method angular_pca
-python main.py --method vanilla
-python baseline_top_k_gradient.py --method vanilla
-python baseline_quantized.py --method vanilla
-python baseline_flocoara.py --method vanilla
+python src/main.py --method angular_pca
+python src/main.py --method vanilla
+python src/baseline_top_k_gradient.py --method vanilla
+python src/baseline_quantized.py --method vanilla
+python src/baseline_flocoara.py --method vanilla
 ```
