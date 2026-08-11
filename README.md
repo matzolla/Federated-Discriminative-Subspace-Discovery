@@ -4,7 +4,13 @@ We propose  `Federated discriminative subspace discovery`, a framework that coll
 ![method](images/Methodology.png)
 
 # Running the experiments
-
+Make sure to create a python virtual environment 
+```python
+# in Mac
+python -m venv environment_name
+# to activate it
+source bin/activate/environment_name
+```
 ```python
 # List your Python scripts in the order you want to execute
 python src/main.py --method angular_pca
