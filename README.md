@@ -24,7 +24,11 @@ Consider changing the directory of the embeddings files to reflect your own dire
 python src\run_evidence.py
 ```
 A plot will be automatically generated in your current directory (see below):
-![evidence](images/evidence_plot.png)
+
+|  Something like this                                          |
+|---------------------------------------------------------------|  
+| ![evidence](images/evidence_plot.png)                         |
+
 ```python
 # List your Python scripts in the order you want to execute
 python src\main.py --method angular_pca
