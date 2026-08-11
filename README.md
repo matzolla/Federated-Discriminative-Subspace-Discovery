@@ -13,6 +13,11 @@ source bin/activate/environment_name
 # In your terminal type the command  below to install the required packages
 pip install -r requirements.txt
 ```
+# Preparing the data
+We extracted embeddings from `Mvit` and `ResNet-3D-18` for both the `UCF101` and `HMDB51` dataset. You can find the sample datasets in the Data folder. You can also reproduce the entire dataset for this project by running the file below:
+```python
+python src\run_extract_emb.py
+```
 ```python
 # List your Python scripts in the order you want to execute
 python src/main.py --method angular_pca
