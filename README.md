@@ -1,3 +1,3 @@
 # Federated-Discriminative-Subspace-Discovery
 
-[method](images/Methodology.png)
+![method](images/Methodology.png)
