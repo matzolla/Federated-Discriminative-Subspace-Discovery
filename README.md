@@ -45,6 +45,9 @@ A plot will be automatically generated in your current directory (see below):
 |---------------------------------------------------------------|  
 | ![evidence](images/evidence_plot.png)                         |
 
+## Experiments
+Because the different methods use the same argument parser file, to run the `baselines` you need to add the `--method vanilla` to it anytime you run them.
+Below are sample experiments run with a batch script.
 ```bash
 # List your Python scripts in the order you want to execute
 python src\main.py --method angular_pca
