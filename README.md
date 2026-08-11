@@ -20,9 +20,9 @@ python src\run_extract_emb.py
 ```
 ```python
 # List your Python scripts in the order you want to execute
-python src/main.py --method angular_pca
-python src/main.py --method vanilla
-python src/baseline_top_k_gradient.py --method vanilla
-python src/baseline_quantized.py --method vanilla
-python src/baseline_flocoara.py --method vanilla
+python src\main.py --method angular_pca
+python src\main.py --method vanilla
+python src\baseline_top_k_gradient.py --method vanilla
+python src\baseline_quantized.py --method vanilla
+python src\baseline_flocoara.py --method vanilla
 ```
