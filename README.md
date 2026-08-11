@@ -3,7 +3,7 @@ We propose  `Federated discriminative subspace discovery`, a framework that coll
 
 ![method](images/Methodology.png)
 
-# Running the experiments
+# Installing the required packages
 Make sure to create a python virtual environment 
 ```python
 # Working with Mac
