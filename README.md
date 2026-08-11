@@ -29,7 +29,7 @@ A plot will be automatically generated in your current directory (see below):
 |---------------------------------------------------------------|  
 | ![evidence](images/evidence_plot.png)                         |
 
-```python
+```shell
 # List your Python scripts in the order you want to execute
 python src\main.py --method angular_pca
 python src\main.py --method vanilla
