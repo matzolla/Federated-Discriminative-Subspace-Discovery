@@ -41,9 +41,9 @@ python src\run_evidence.py
 ```
 A plot will be automatically generated in your current directory (see below):
 
-|  For both MViT and ResNet-3D-18, increasing the subspace dimensionality leads to an increase in accuracy, which then begins to plateau at approximately $256$ dimensions.         |
-|---------------------------------------------------------------|  
-| ![evidence](images/evidence_plot.png)                         |
+|  Figure 1                                                     |              Figure 2                                     |
+|---------------------------------------------------------------|-----------------------------------------------------------|
+| ![evidence](images/evidence_plot.png)                         | ![nice](images/nice_plot.png)                             |
 
 ## Experiments
 Because the different methods use the same argument parser file, to run the `baselines` you need to add the `--method vanilla` to it anytime you run them.
