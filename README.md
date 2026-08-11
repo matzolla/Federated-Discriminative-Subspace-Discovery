@@ -39,7 +39,7 @@ Then run the command below in your terminal:
 ```python
 python src\run_evidence.py
 ```
-A plot will be automatically generated in your current directory (see below):
+A plot will be automatically generated in your current directory (see  Figure 1 below):
 
 |  Figure 1                                                     |              Figure 2                                     |
 |---------------------------------------------------------------|-----------------------------------------------------------|
